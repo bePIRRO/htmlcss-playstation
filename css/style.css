@@ -7,13 +7,24 @@
     background-color: #fff;
 }
 
-
 #logo-sony {
     height: 15px;
 }
 
+#main-nav {
+    box-shadow: 0px 0px 2px #000;
+}
+
+#main-nav .nav-link {
+    color: #000;
+}
+
+#src {
+    height: 25px;
+}
+
+
 main {
     background-color: aqua;
     height: 2000px;
-    overflow-y: auto;
 }
