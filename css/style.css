@@ -1,0 +1,19 @@
+/* background colors */
+.bg-black {
+    background-color: #000;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+
+#logo-sony {
+    height: 15px;
+}
+
+main {
+    background-color: aqua;
+    height: 2000px;
+    overflow-y: auto;
+}
