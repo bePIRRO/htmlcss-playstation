@@ -38,15 +38,17 @@
 }
 
 
+/* MAIN */
 
+/* jumbotron */
 
-
-
-
-
+.jumbo img {
+    max-width: 100%;
+}
 
 
 main {
     background-color: aqua;
     height: 2000px;
+    margin-top: 92px;
 }
