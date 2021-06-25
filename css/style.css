@@ -23,6 +23,10 @@
     background-color: #cd3d0f;
 }
 
+.bg-dark-blue {
+    background-color: #161c3b;
+}
+
 /* colors */
 .white {
     color: #fff;
@@ -102,6 +106,10 @@ main {
 
 #psplus {
     max-width: 315px;
+}
+
+#psnow {
+    max-width: 290px;
 }
 
 
