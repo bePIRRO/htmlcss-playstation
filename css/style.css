@@ -11,6 +11,18 @@
     background-color: #363636;
 }
 
+/* colors */
+.white {
+    color: #fff;
+}
+
+.light-blue {
+    color: #0072ce
+}
+
+.grey {
+    color: #727272;
+}
 
 /* HEADER */
 .head-bar {
@@ -55,7 +67,6 @@
 .jumbo-title {
     z-index: 1;
     position: absolute;
-    color: #fff;
 }
 
 #returnal {
