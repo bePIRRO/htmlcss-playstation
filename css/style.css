@@ -71,4 +71,7 @@ main {
 
 /* game-list */
 
-.game-list img
+.game-list img {
+    border-radius: 15px;
+    margin-top: 20px;
+}
