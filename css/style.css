@@ -11,6 +11,14 @@
     background-color: #363636;
 }
 
+.bg-antracite {
+    background-color: #1f1f1f;
+}
+
+.bg-red {
+    background-color: #cd3d0f;
+}
+
 /* colors */
 .white {
     color: #fff;
