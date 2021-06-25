@@ -82,9 +82,17 @@ main {
 }
 
 /* jumbotron */
+.jumbo {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 300px);
+}
 
 .jumbo img:first-child{
     width: 100%;
+    height: auto;
 }
 
 .jumbo-title {
@@ -132,11 +140,15 @@ main {
     width: 20px;
 }
 
-footer a {
+.main-foot a {
     text-decoration: none;
     color: #fff;
 }
 
 footer li {
     list-style-type: none;
+}
+
+.sie-logo {
+    width: 130px;
 }
