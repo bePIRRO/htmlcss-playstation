@@ -73,6 +73,10 @@
     max-width: 210px;
 }
 
+#takes-two {
+    max-width: 210px;
+}
+
 main {
     /* background-color: aqua; */
     height: 2000px;
