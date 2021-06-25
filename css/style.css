@@ -13,12 +13,18 @@
 
 
 /* HEADER */
+.head-bar {
+    height: 35px;
+    line-height: 35px;
+}
+
 #logo-sony {
     height: 15px;
 }
 
 #main-nav {
     box-shadow: 0px 0px 2px #000;
+    margin-top: 35px;
 }
 
 #main-nav .nav-link {
@@ -42,13 +48,27 @@
 
 /* jumbotron */
 
-.jumbo img {
-    max-width: 100%;
+.jumbo img:first-child{
+    width: 100%;
 }
 
+.jumbo-title {
+    z-index: 1;
+    position: absolute;
+    color: #fff;
+}
+
+#returnal {
+    max-width: 210px;
+}
 
 main {
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 2000px;
-    margin-top: 92px;
+    margin-top: 100px;
 }
+
+
+/* game-list */
+
+.game-list img
