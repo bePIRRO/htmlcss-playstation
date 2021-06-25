@@ -23,6 +23,10 @@
     background-color: #cd3d0f;
 }
 
+.bg-blue {
+    background-color: #00439c;
+}
+
 .bg-dark-blue {
     background-color: #161c3b;
 }
@@ -104,6 +108,7 @@ main {
     margin-top: 20px;
 }
 
+/* banners */
 #psplus {
     max-width: 315px;
 }
@@ -120,4 +125,18 @@ main {
     .banner {
         padding: 50px 0;
     }
+}
+
+/* FOOTER */
+.language img {
+    width: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li {
+    list-style-type: none;
 }
