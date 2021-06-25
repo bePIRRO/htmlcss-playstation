@@ -112,7 +112,6 @@ main {
     max-width: 290px;
 }
 
-
 @media screen and (max-width: 768px) {
     .img-banner {
         display: none;
