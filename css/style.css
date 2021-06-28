@@ -108,11 +108,26 @@ main {
 
 
 /* game-list */
-
 .game-list img {
     border-radius: 15px;
     margin-top: 20px;
 }
+
+
+/* ps5-accessories */
+.ps5-accessories a {
+    color: #000;
+    text-decoration: none;
+}
+
+.ps5-accessories img:not(.ps5) {
+    opacity: 60%;
+}
+
+.ps5-accessories div:first-child {
+    border-bottom: 2px solid #0072ce;
+}
+
 
 /* banners */
 #psplus {
@@ -150,3 +165,5 @@ footer li {
 .sie-logo {
     width: 130px;
 }
+
+/* HOVER EFFECTS */
