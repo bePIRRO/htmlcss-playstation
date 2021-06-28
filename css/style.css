@@ -86,7 +86,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: calc(100vh - 300px);
 }
 
 .jumbo-1 {
@@ -194,14 +193,25 @@ footer li {
     color: #0072ce;
 }
 
-.b-black:hover {
-    /* outline-offset: -4px;
-    outline: 2px solid #000;
-    -moz-outline-radius: 30px; */
-
-    border: 2px solid #000;
+.btn-danger:hover {
+    border: 2px solid #bb2d3b;
+    box-shadow: inset 0px 0px 0px 3px #000;
 }
 
+.btn-primary:hover {
+    border: 2px solid #0b5ed7;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+.btn-secondary:hover {
+    border: 2px solid #5c636a;
+    box-shadow: inset 0px 0px 0px 2px #fff ;
+}
+
+.b-black:hover {
+    border: 2px solid #f9fafb;
+    box-shadow: inset 0px 0px 0px 3px #000 ;
+}
 
 /* imgs */
 .ps5-accessories div:hover {
