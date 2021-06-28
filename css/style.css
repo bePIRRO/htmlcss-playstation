@@ -122,6 +122,7 @@ main {
 
 .ps5-accessories img:not(.ps5) {
     opacity: 60%;
+    transition: 0.5s;    
 }
 
 .ps5-accessories div:first-child {
@@ -167,3 +168,35 @@ footer li {
 }
 
 /* HOVER EFFECTS */
+
+/* nav-bar */
+#main-nav a:hover {
+    color: #0070d1;
+}
+
+.navbar-nav .nav-link:hover::after {
+    content: url(../img/chevron-down-solid-hover.svg);
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    margin-left: 5px;
+}
+
+
+/* buttons */
+#psplus-btn:hover{
+    box-shadow: #d9dadc 0px 0px 15px;
+    color: #0072ce;
+}
+
+.b-black:hover {
+    outline-offset: -4px;
+    outline: 2px solid #000;
+    -moz-outline-radius: 30px;
+}
+
+
+/* imgs */
+.ps5-accessories div:hover img {
+    opacity: 100%;
+}
