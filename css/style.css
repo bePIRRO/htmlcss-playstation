@@ -111,6 +111,7 @@ main {
 .game-list img {
     border-radius: 15px;
     margin-top: 20px;
+    transition: 0.5s;
 }
 
 
@@ -190,13 +191,21 @@ footer li {
 }
 
 .b-black:hover {
-    outline-offset: -4px;
+    /* outline-offset: -4px;
     outline: 2px solid #000;
-    -moz-outline-radius: 30px;
+    -moz-outline-radius: 30px; */
+
+    border: 2px solid #0070d1;
+
 }
 
 
 /* imgs */
 .ps5-accessories div:hover img {
     opacity: 100%;
+}
+
+.game-list figure:hover img {
+    cursor: pointer;
+    transform: translateY(-30px);
 }
