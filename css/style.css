@@ -88,6 +88,10 @@ main {
     background-position: center;
 }
 
+.jumbo .row {
+    height: 500px;
+}
+
 .jumbo-1 {
     background-image: url(../img/jumbo-bg.png);
 }
