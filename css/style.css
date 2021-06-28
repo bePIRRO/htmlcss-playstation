@@ -121,7 +121,7 @@ main {
     text-decoration: none;
 }
 
-.ps5-accessories img:not(.ps5) {
+.ps5-accessories div:not(.ps5) {
     opacity: 60%;
     transition: 0.5s;    
 }
@@ -147,6 +147,10 @@ main {
 
     .banner {
         padding: 50px 0;
+    }
+
+    .ps5-accessories h6 {
+        display: none;
     }
 }
 
@@ -195,13 +199,12 @@ footer li {
     outline: 2px solid #000;
     -moz-outline-radius: 30px; */
 
-    border: 2px solid #0070d1;
-
+    border: 2px solid #000;
 }
 
 
 /* imgs */
-.ps5-accessories div:hover img {
+.ps5-accessories div:hover {
     opacity: 100%;
 }
 
