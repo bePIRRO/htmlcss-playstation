@@ -92,11 +92,11 @@ main {
     height: 500px;
 }
 
-.jumbo-1 {
+.main-jumbo {
     background-image: url(../img/jumbo-bg.png);
 }
 
-.jumbo-2 {
+.new-game-jumbo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
